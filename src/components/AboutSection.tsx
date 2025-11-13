@@ -34,9 +34,9 @@ const AboutSection = () => {
                             </div> */}
                             <div className="overflow-hidden rounded-2xl w-full h-full">
                                 <img
-                                    src="https://res.cloudinary.com/dh5trkmtb/image/upload/v1742235128/IMG_20250101_120545_isizd3.jpg"
+                                    src="https://res.cloudinary.com/dh5trkmtb/image/upload/v1763008367/8d62c729-a6a1-4d2c-a21e-482f67aff422-removebg-preview_ggrunx.png"
                                     alt="Profile"
-                                    className="w-full h-full object-cover scale-125 rounded-2xl"
+                                    className="w-full h-full object-cover scale-100 rounded-2xl"
                                 />
                             </div>
                         </div>
