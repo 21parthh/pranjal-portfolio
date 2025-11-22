@@ -91,8 +91,9 @@ const Hero = () => {
                         >
                             I design experiences that speak to both logic and
                             emotion. Every pixel has a purpose, every
-                            interaction a story. Design, for me, is where
-                            function meets feeling.
+                            interaction a story.
+                            <br /> Design, for me, is where function meets
+                            feeling.
                         </motion.p>
 
                         <motion.div
@@ -114,7 +115,7 @@ const Hero = () => {
 
                             <button
                                 onClick={() => setShowResume(true)}
-                                className="inline-flex items-center gap-2 px-5 py-2 text-primary text-base sm:text-lg font-medium rounded-md"
+                                className="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-accent to-accent-secondary rounded-full font-medium overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_40px_hsl(var(--accent)/0.5)]"
                             >
                                 <span>View Resume</span>
                             </button>

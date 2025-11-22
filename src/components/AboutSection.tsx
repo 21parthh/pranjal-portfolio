@@ -34,7 +34,7 @@ const AboutSection = () => {
                             </div> */}
                             <div className="overflow-hidden rounded-2xl w-full h-full">
                                 <img
-                                    src="https://res.cloudinary.com/dh5trkmtb/image/upload/v1763008367/8d62c729-a6a1-4d2c-a21e-482f67aff422-removebg-preview_ggrunx.png"
+                                    src="https://res.cloudinary.com/dh5trkmtb/image/upload/v1763825967/8d62c729-a6a1-4d2c-a21e-482f67aff422_utjqba.jpg"
                                     alt="Profile"
                                     className="w-full h-full object-cover scale-100 rounded-2xl"
                                 />
@@ -54,18 +54,22 @@ const AboutSection = () => {
                         </div>
 
                         <p className="text-lg text-muted-foreground leading-relaxed">
-                            I'm a passionate designer who believes in the power
-                            of thoughtful design to solve real problems. With
-                            years of experience crafting intuitive interfaces, I
-                            transform complex challenges into elegant,
-                            user-friendly solutions.
+                            I’m a passionate designer who believes in the power
+                            of thoughtful design to solve real problems. I’m
+                            fascinated by how design shapes what people feel and
+                            how they interact. Apart from design, I love
+                            admiring sunsets, watching the sky change colors,
+                            and losing myself in good series. Traveling brings
+                            me peace and helps me understand life and people
+                            better. All of these moments inspire the designer
+                            I’m becoming.
                         </p>
 
                         {/* Stats */}
                         <div className="flex gap-8 pt-4">
                             <div>
                                 <div className="text-3xl font-serif text-foreground mb-1">
-                                    1+
+                                    2+
                                 </div>
                                 <div className="text-sm text-muted-foreground">
                                     Years
