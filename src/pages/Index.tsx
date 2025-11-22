@@ -18,6 +18,7 @@ const projects = [
         image: "https://res.cloudinary.com/dh5trkmtb/image/upload/v1762961549/Hero_1_cv4nif.png",
         categories: ["Healthcare", "UX Design", "UI Design"],
         link: "https://www.behance.net/gallery/234073095/MyClinic-Smart-Appointment-Clinic-Management",
+        button: "Case Study",
     },
     {
         title: "syncmyJD",
@@ -26,6 +27,7 @@ const projects = [
         image: "https://res.cloudinary.com/dh5trkmtb/image/upload/v1762961549/Frame_1948755425_1_brdh6a.png",
         categories: ["UX Research", "UI Design", "Technology"],
         link: "https://www.behance.net/gallery/237822739/syncmyJD-AI-Powered-Resume-Builder-UX-Case-Study",
+        button: "Case Study",
     },
     {
         title: "Nazdeeki Food App",
@@ -33,6 +35,7 @@ const projects = [
             "A food delivery and discovery app that helps customers find and order from nearby restaurants, while giving restaurant owners tools to manage menus, track orders, and reach local customers easily.",
         image: "https://res.cloudinary.com/dh5trkmtb/image/upload/v1762966940/Clean_and_Modern_App_Portfolio_Mockup_Presentation_1_srk28w.png",
         categories: ["UX Research", "UI Design", "Food"],
+        button: "Coming Soon",
     },
 ];
 
@@ -161,7 +164,7 @@ const Index = () => {
                                                         href={project.link}
                                                         className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full font-medium hover:bg-accent hover:text-accent-foreground transition-all duration-300"
                                                     >
-                                                        Case Study
+                                                        {project.button}
                                                     </a>
                                                 </div>
                                             </div>

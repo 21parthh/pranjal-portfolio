@@ -119,22 +119,23 @@ const Hero = () => {
                             <a
                                 href="#works"
                                 className="
-                                    group relative 
-                                    inline-flex items-center 
-                                    px-6 py-3 sm:px-8 sm:py-4 
-                                    bg-gradient-to-r from-accent to-accent-secondary 
-                                    rounded-full 
-                                    font-medium 
-                                    transition-all 
-                                    hover:scale-105 
-                                    hover:shadow-[0_0_40px_hsl(var(--accent)/0.5)]
-                                "
+        group relative 
+        inline-flex items-center 
+        px-6 py-3 sm:px-8 sm:py-4 
+        bg-gradient-to-r from-accent to-accent-secondary 
+        rounded-full 
+        font-medium 
+        transition-all 
+        hover:scale-105 
+        hover:shadow-[0_0_40px_hsl(var(--accent)/0.5)]
+    "
                             >
                                 <span className="relative z-10 text-sm uppercase tracking-wider mr-2 text-white">
                                     View Work
                                 </span>
                                 <ArrowRight className="relative z-10 w-4 h-4 text-white transition-transform group-hover:translate-x-1" />
-                                <div className="absolute inset-0 bg-gradient-to-r from-accent-secondary to-accent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-accent-secondary to-accent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                             </a>
 
                             <button

@@ -9,6 +9,7 @@ interface ProjectCardProps {
     categories: string[];
     index: number;
     link: string;
+    button: string;
 }
 
 const ProjectCard = ({
